@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#count{
+    margin-bottom: 40px;
+    font-size: 250px;
+    color: chocolate;
+}
+button{
+    padding: 20px;
+    width: 10vw;
+    background-color: aquamarine;
+}
+.outerbutton{
+    display: flex;
+    gap: 20px;
+}

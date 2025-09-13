@@ -23,3 +23,17 @@ function decr(){
 function reset(){
     para.textContent=0;
 }
+let colors=["red","blue","pink","orange","yellow","purple","green"]
+function change(){
+    const rIndex=Math.floor(Math.random()*10000000).toString(16)
+    document.body.style.backgroundColor='#'+rIndex
+}
+const inp=document.getElementById('inp')
+function inputChange(){
+    document.getElementsByClassName('btn')[0].style.backgroundColor=inp.value;
+     document.getElementsByClassName('btn')[1].style.backgroundColor=inp.value ; 
+      document.getElementsByClassName('btn')[2].style.backgroundColor=inp.value;
+}
+function changeMode(){
+    document.body.classList.toggle("dark")
+}

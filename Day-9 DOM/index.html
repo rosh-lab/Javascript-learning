@@ -12,13 +12,17 @@
     <!-- <h1 id="heading">kitty</h1>
      <h1 class="h">hiiiiiiii</h1>
      <p class="h">hello</p> -->
-   <div class="para">
+     <button id="changeMode" onclick="changeMode()">Change to Dark</button>
+     <input type="text" id="inp" placeholder="Enter a color">
+     <button onclick="inputChange()">Button color change</button>
+     <button onclick="change()" id="change">Color change</button>
+         <div class="para">
      <p id="count">0</p>
    </div>
     <div class="outerbutton">
-        <button onclick="incr()">Plus</button>
-        <button onclick="decr()">Minus</button>
-        <button onclick="reset()">Reset</button>
+        <button onclick="incr()" class="btn">Plus</button>
+        <button onclick="decr()" class="btn">Minus</button>
+        <button onclick="reset()" class="btn">Reset</button>
     </div>
     <script src="./script.js"></script>
 </body>

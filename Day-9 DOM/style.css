@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: aqua; */
 }
 #count{
     margin-bottom: 40px;
@@ -23,4 +24,21 @@ button{
 .outerbutton{
     display: flex;
     gap: 20px;
+}
+#change{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+input{
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#changeMode{
+    position: absolute;
+    top: 0;
+    right: 0;
 }

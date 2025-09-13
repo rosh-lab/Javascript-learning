@@ -51,3 +51,22 @@ function logic(a,b){
       console.log(x)
 }
 logic(2,incr)
+
+
+
+
+
+//Program for closure function
+function create(){
+    let x=50;
+    function incr(){
+        let c=x++;
+        console.log(c)
+    }
+    return incr
+}
+let res=create()
+console.log(res)
+res()
+res()
+res()

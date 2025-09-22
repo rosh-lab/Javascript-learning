@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" onsubmit="fun()">
+        <input type="text" placeholder="Enter msg" id="na" oninput="makeInput()">
+        <select id="choice" onchange="makeInput2()">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <p id="para"></p>
+    <button onclick="fun()">Click me 1</button>
+    <button onmouseover="fun()" >Click me 2</button>
+    <button id="btn1">Btn1</button>
+    <button id="btn2">Btn2</button>
+    <script src="./script.js"></script>
+</body>
+</html>

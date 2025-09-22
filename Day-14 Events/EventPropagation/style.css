@@ -1,0 +1,21 @@
+#c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

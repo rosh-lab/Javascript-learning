@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+#container{
+    font-size: 10rem;
+    color: burlywood;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+    background-color: blanchedalmond;
+    border-radius: 2rem;
+}
+#container:hover{
+    transform: translateY(-5px);
+    background-color: chocolate;
+}

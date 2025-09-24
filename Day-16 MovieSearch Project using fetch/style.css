@@ -6,7 +6,6 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 2rem;
     max-width: 1280px;
@@ -58,5 +57,17 @@ body{
     box-shadow: 0 10px 15px rgba(159, 80, 80, 0.6);
 }
 .inputdiv{
+    margin-top: 10px;
+}
+#darkMode{
+     border-radius: 1rem;
+    padding: 1rem;
+    width: 10vw;
+    background-color: blanchedalmond;
+    color: crimson;
+    box-shadow: 0 10px 15px rgba(159, 80, 80, 0.6);
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
     margin-top: 10px;
 }

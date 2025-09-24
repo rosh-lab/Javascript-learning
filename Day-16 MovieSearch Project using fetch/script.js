@@ -1,3 +1,8 @@
+const darkMode=document.getElementById('darkMode');
+darkMode.addEventListener("click",colorchange)
+function colorchange(){
+    document.body.style.backgroundColor="black"
+}
 const containerDiv=document.getElementById('container')
 const movieDiv=document.getElementById('movieName')
 const button=document.getElementById('btn')
